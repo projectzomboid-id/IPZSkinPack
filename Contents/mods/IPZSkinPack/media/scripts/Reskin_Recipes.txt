@@ -1,0 +1,22 @@
+module Base	{
+
+    recipe Reskin M16 with Batik Skin
+	{
+		Base.ColtM16,
+		IPZSkinPack.Blueprint_Batik,
+		Result:IPZSkinPack.ColtM16Batik,
+		Category:Firearm,
+		Sound:Spray_Skin,
+		Time:400.0,
+	}
+
+	recipe Reskin M16 with Asiimov Skin
+	{
+		Base.ColtM16,
+		IPZSkinPack.Blueprint_Asiimov,
+		Result:IPZSkinPack.ColtM16Asiimov,
+		Category:Firearm,
+		Sound:Spray_Skin,
+		Time:400.0,
+	}
+}

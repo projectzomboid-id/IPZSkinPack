@@ -1,0 +1,196 @@
+module Base{
+
+	model Blueprint_Batik_M
+	{
+		mesh = WorldItems/Indomie,
+		texture = WorldItems/Indomie,
+		scale = 0.1,
+	}
+
+	model Blueprint_Asiimov_M
+	{
+		mesh = WorldItems/Indomie,
+		texture = WorldItems/Indomie,
+		scale = 0.1,
+	}
+
+	model ColtM16Batik
+	{
+		mesh = weapons/firearm/ColtM16,
+		texture = weapons/firearm/M16Batik,
+
+		attachment bipod
+		{
+			offset = 0.0000 -0.0150 0.0120,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment foregrip
+		{
+			offset = 0.0000 0.0400 0.0100,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment light
+		{
+			offset = 0.0000 0.2610 0.0183,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment side
+		{
+			offset = 0.0100 0.2000 0.0314,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+
+		attachment suppressor
+		{
+			offset = 0.0000 0.4192 0.0192,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment bayonet
+		{
+			offset = 0.0000 0.3240 0.0155,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4375 0.0192,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.0401 0.0166,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0250 0.0250,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 -0.0004 0.0227,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment launcher
+		{
+			offset = 0.0000 0.0000 0.0035,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment mag
+		{
+			offset = 0.0000 0.0010 -0.0010,
+			rotate = 0.0000 -1.0000 -2.0000,
+		}
+
+		attachment drum
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment pad
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+
+	model ColtM16Asiimov
+	{
+		mesh = weapons/firearm/ColtM16,
+		texture = weapons/firearm/M16Asiimov,
+
+		attachment bipod
+		{
+			offset = 0.0000 -0.0150 0.0120,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment foregrip
+		{
+			offset = 0.0000 0.0400 0.0100,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment light
+		{
+			offset = 0.0000 0.2610 0.0183,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment side
+		{
+			offset = 0.0100 0.2000 0.0314,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+
+		attachment suppressor
+		{
+			offset = 0.0000 0.4192 0.0192,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment bayonet
+		{
+			offset = 0.0000 0.3240 0.0155,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4375 0.0192,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.0401 0.0166,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0250 0.0250,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 -0.0004 0.0227,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment launcher
+		{
+			offset = 0.0000 0.0000 0.0035,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment mag
+		{
+			offset = 0.0000 0.0010 -0.0010,
+			rotate = 0.0000 -1.0000 -2.0000,
+		}
+
+		attachment drum
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment pad
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+}
